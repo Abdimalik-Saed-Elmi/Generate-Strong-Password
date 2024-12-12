@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate a Random Password</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="pass.css">
+</head>
+<body>
+        <div class="container">
+            <h1>Generate a <br>
+                <span> Random Password</span>
+            </h1>
+            <div class="display">
+                <input type="text" id="Password" placeholder="Password">
+                <img src="./copy.png" onclick="copyPass()">
+            </div>
+            <button onclick="createPassword()"> <img src="./generate.png" alt="" ondblclick="copyPass()">Generate Password</button>
+        </div>
+        <footer>
+            <center class="footer-center">
+                <i class="fa fa-copyright" style="font-size:20px; color: white;"> 
+                    2024 Abdimalik Said Elmi. All Rights Reserved</i>
+            </center>
+        </footer>
+
+
+        <script src="pass.js"></script>
+</body>
+</html>
